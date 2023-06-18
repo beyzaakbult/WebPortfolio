@@ -1,0 +1,262 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+ 
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    font: 16px/28px 'Open Sans', sans-serif;
+    color: #212121;
+    background: #F2F2F2;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat ', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    margin-bottom: 38px;
+    width: 550px;
+    color: #212121;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    margin-bottom: 16px;
+    color: #212121;
+}
+
+h3, h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Montserrat';
+    
+}
+
+h4 {
+    font-weight: 400;
+}
+
+h3 {
+    margin-bottom: 16px;
+}
+
+.container { 
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 57px;
+}
+
+.nav a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.headerIcons {
+    display: flex;
+    gap: 30px;
+}
+
+.headerImg {
+    display: flex;
+    justify-content: flex-start;
+    height: 48px;
+    gap: 32px;
+}
+  
+.kutu {
+    box-sizing: border-box;
+    border: 1px solid #C4C4C4;
+    border-radius: 12px; 
+    margin-bottom: 80px;
+    padding: 24px;
+}
+
+.kutu h3 {
+    margin-top: 24px;
+}
+
+.kfc p {
+    width: 650px;
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Open Sans';
+    font-weight: 400;
+
+}
+
+.kfc a {
+    display: flex;
+    text-decoration: none;
+    color: #212121;
+    margin-top: 64px;
+    font-family: 'Montserrat';
+}
+
+.title {
+    margin-top: 180px;
+    margin-bottom: 40px;
+}
+
+.everyday p {
+    width: 650px;
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+  
+.everyday a {
+    display: flex;
+    text-decoration: none;
+    color: #212121;
+    margin-top: 64px;
+    font-family: 'Montserrat';
+}
+
+.coffe p {
+    width: 650px;
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.coffe a {
+    display: flex;
+    text-decoration: none;
+    color: #212121;
+    margin-top: 64px;
+    font-family: 'Montserrat';
+}
+
+.bottomLeft{
+    color: #212121;
+    font-family: 'Montserrat';
+    width: 569px;
+    height: 192px;
+    margin-bottom: 165px;
+}
+
+.bottomLeft h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.bottomLeft a {
+    color: rgba(13, 110, 253, 1);
+    text-decoration: none;
+}
+
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomRight {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    border: none; 
+}
+
+.bottomRight form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.bottomRightName {
+    width: 445px;
+    height: 48px;
+    border: none;
+    margin-bottom: 16px;
+    background: #F2F2F2;
+  
+}
+
+.bottomRightMessage {
+    width: 445px;
+    height: 113px;
+    border: none;
+    margin-bottom: 16px;
+    background: #F2F2F2;
+  
+}
+
+.bottomRightQuestion {
+    border: none;
+    width: 445px;
+    height: 48px;
+    margin-bottom: 16px;
+    background: #F2F2F2;
+  
+}
+
+.sendButton {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    width: 445px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 32px;
+    background: rgba(216, 216, 216, 0.0001); 
+    border-radius: 3px;
+    margin-top: 16px;
+}
+
+.line {
+    background: rgba(196, 196, 196, 1);
+    height: 1.0434799194335938px;
+    width: 445px;
+    
+}
+
+.from{ 
+    padding-bottom: 32px;
+    padding-top: 160px;
+}
